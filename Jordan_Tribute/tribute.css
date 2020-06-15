@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid red;
+}
+
+.gallery img {
+    width: 100%;
+    text-decoration-color: white;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+ul {
+    color: white;
+}
+
+/* h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}  */
+
+footer {
+    text-align: center;
+    color: white;
+}
