@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet.jpg);
+    background-size: cover;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    border: white;
+    border-radius: 10px;
+}
+
+.CabApplication {
+    display: block;
+    text-align: center;
+    padding: 15px 0px;
+    color: black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#CabApplication {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    font-size: large;
+    color: black;
+}
+
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}
